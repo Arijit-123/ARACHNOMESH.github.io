@@ -43,32 +43,7 @@ const Ourwork = () => {
        </div>
       </div>
     </div>
-    {/* <div className='lower-div-ourwork'>
-      <div className='inner-div'>
-        <div className='division-one'>
-            <div className='card-alpha'>
-            <img  src='/images/A (1).png'></img>  
-            </div>
-            <div className='card'>
-            <img src='/images/AQUA.png'></img>  
-            </div>
-            <div className='card-alpha'>
-            <img src='/images/C.png'></img>  
-            </div>
-        </div>
-        <div className='division-one'>
-            <div className='card'>
-            <img src='/images/photo1.png'></img>  
-            </div>
-            <div className='card-alpha'>
-            <img src='/images/B.png'></img>  
-            </div>
-            <div className='card'>
-            <img src='/images/photo2.png'></img>  
-            </div>
-            </div>
-        </div>
-    </div> */}
+   
     </div>
     </>
   )
