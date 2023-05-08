@@ -6,11 +6,14 @@ const Productdetailpage = () => {
     <div className='menubar'>
       <div className='logo'>
       <img src='/images/ARACHNOMESH.png'></img>
+     <img  id='img' src='/images/mag.png'></img>
       </div>
       <div id='menus'>
         <ul>
       <li>Home</li>
       <li>About</li>
+      <li> <img  id='img' src='/images/person.png'></img></li>
+      <li>  <img  id='img' src='/images/heart.png'></img></li>
       </ul>
       </div>
      
