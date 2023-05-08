@@ -147,7 +147,7 @@ const Productdetailpage = () => {
         
         <div  className='image-card-below'>
         <div className='div-square'><img src='/images/pitcher-2.png'></img></div>
-        <div className='letter'>Obsidian Pearl</div>
+        <div className='letter'>Pure Snow</div>
         <div >Jug V</div>
         </div>
       </div>
