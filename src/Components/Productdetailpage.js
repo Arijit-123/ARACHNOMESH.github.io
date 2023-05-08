@@ -19,6 +19,14 @@ const Productdetailpage = () => {
        <div className='bottle-filter'>
         <div className='Bottle-head'>
         <h1>Bottle Filtered_</h1>
+        <div className='submenu-options'>
+        <ul>
+          <li><button>General info</button></li>
+          <li>Product details</li>
+          <li>Reviews</li>
+          
+        </ul>
+        </div>
         </div>
         <div className='bottle-mis'>
         <div className='uniqueimage'>
@@ -31,7 +39,8 @@ const Productdetailpage = () => {
         
 
         <div className='second-section'>
-          <span className='letter'>$995 price</span>&nbsp;<s>$300</s>
+          <div>
+          <span className='letter'>$995 price</span>&nbsp;<s>$300</s> &nbsp;<button id='button-new'>-50%</button>
         <p></p>
         <span>Color</span>
         <div className='button-insulated'>
@@ -93,28 +102,50 @@ const Productdetailpage = () => {
             <p>.Free store return </p>
             <p>Free return via USPS Dropoff service</p>
         </div>
+        <hr></hr>
         </div>
-       
+        <div className='card-picture'>
+        <div className='trans-card'> <img src='/images/visa (1).png'></img></div>
+         <div className='trans-card'> <img  src='/images/master-card.png'></img></div>
+         <div className='trans-card'> <img  src='/images/pay-pal.png'></img></div>
+        
+         </div>
         </div>
       </div>
+      
       </div>
+
+      
+        </div>
       <div className='images-list-one'>
           <div className='image-lower-detail'> <img  id="dot-image" src='/images/lower-image-3.png'></img></div>
           <div className='image-lower-detail'><img  id="dot-image" src='/images/lower-img2.png'></img></div>
           <div className='image-lower-detail'> <img  id="dot-image" src='/images/lower-image-3.png'></img></div>
           <div className='image-lower-detail'> <img  id="dot-image" src='/images/cap-one.png'></img></div>
-          <div className='image-lower-detail'> <img  id="dot-image" src='/images/lower-img-5.png'></img></div>
+          <div className='image-lower-detail' id='last-img'> <img  id="dot-image" src='/images/lower-img-5.png'></img></div>
         </div>
       <div id='recommendation'>Recommendation_</div>
       <div className='product-catalogue'>
-        <div className='div-square'>
+        <div className='image-card-below'>
+          <div className='div-square'>
         <img src='/images/bottl-one.png'></img>
         </div>
-        <div className='div-square'>
+        <div className='letter'> Manaco- green</div>
+        <div >Pure V</div>
+        </div>
+       
+        <div  className='image-card-below' >
+          <div className='div-square'>
         <img src='/images/bottl-2.png'></img>
         </div>
-        <div className='div-square'>
-        <img src='/images/pitcher-2.png'></img>
+        <div className='letter'>Obsidian Pearl</div>
+        <div >Filter V</div>
+        </div>
+        
+        <div  className='image-card-below'>
+        <div className='div-square'><img src='/images/pitcher-2.png'></img></div>
+        <div className='letter'>Obsidian Pearl</div>
+        <div >Jug V</div>
         </div>
       </div>
       <hr></hr>
