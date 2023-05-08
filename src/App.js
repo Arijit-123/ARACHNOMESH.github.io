@@ -32,6 +32,7 @@ function App() {
         <div className='text'>
           <h1><p>Self Cleaning bottle</p> <p>in 60 s</p></h1>
           <p>Hit refresh with the intelligently clean bottle built for adventure</p>
+           <button className={ `${myCapIsVisible ? 'top-button': ''}`} id='button-menu'>KNOW MORE</button>
           </div>
         <div> 
       <img className={ `${myCapIsVisible ? 'main-image': ''}`} src="/images/Ellipse 3.png"></img>
