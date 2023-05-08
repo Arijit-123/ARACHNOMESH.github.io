@@ -11,8 +11,8 @@ const Menubar = () => {
       <li>Home</li>
       <li>About</li>
       <li>Bottles</li>
-      <li>Home</li>
       <li>About</li>
+      <li>Contacts</li>
      <li> <button id='button-menu'>Login</button></li>
     </ul>
       </div>
